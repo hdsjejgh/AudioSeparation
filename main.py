@@ -43,7 +43,7 @@ for i in range(EPOCHS):
 unmixed = W @ audio_mat
 print(W.shape)
 print(W)
-write('1.wav', _, normalize(unmixed[0]))
-write('2.wav', _, normalize(unmixed[1]))
-write('3.wav', _, normalize(unmixed[2]))
-write('4.wav', _, normalize(unmixed[3]))
+write('results/1.wav', _, normalize(unmixed[0]))
+write('results/2.wav', _, normalize(unmixed[1]))
+write('results/3.wav', _, normalize(unmixed[2]))
+write('results/4.wav', _, normalize(unmixed[3]))
